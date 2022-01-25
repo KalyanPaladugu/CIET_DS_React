@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: Cards ::</title>
+
+    <style>
+        .card {
+            border: 1px solid lightgray;
+            width: 20rem;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 10px;
+        }
+        button {
+            padding: 10px;
+            margin-bottom: 10px;
+            font-size: 30px;
+        }
+
+        @media screen and (max-width:600px) {
+            button {
+                background-color: blue;
+                color: white;
+            }
+        }
+
+        @media screen and (min-width:768px) and 
+        (max-width:991px) {
+            button {
+                background-color: rgb(245, 245, 248);
+                color: rgb(68, 30, 236);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+
+        <div class="card">
+            <img src="./user.png" alt="">
+            <h1>Ajay K</h1>
+            <h2>Junior Software Developer</h2>
+            <h3>ajay@gmail.com</h3>
+            <button>Click</button>
+        </div>
+        <div class="card">
+            <img src="./user.png" alt="">
+            <h1>Ajay K</h1>
+            <h2>Junior Software Developer</h2>
+            <h3>ajay@gmail.com</h3>
+            <button>Click</button>
+        </div>
+        <div class="card">
+            <img src="./user.png" alt="">
+            <h1>Ajay K</h1>
+            <h2>Junior Software Developer</h2>
+            <h3>ajay@gmail.com</h3>
+            <button>Click</button>
+        </div>
+        <div class="card">
+            <img src="./user.png" alt="">
+            <h1>Ajay K</h1>
+            <h2>Junior Software Developer</h2>
+            <h3>ajay@gmail.com</h3>
+            <button>Click</button>
+        </div>
+   
+ </div>
+</body>
+</html>

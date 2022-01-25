@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: Selectors ::</title>
+    <style>
+        * {
+            background-color: lightgray;
+        }
+        h1 {
+            color: red;
+        }
+        h1,h2 {
+            text-align: center;
+        }
+
+        .heading {
+            background-color: lightyellow;
+        }
+        #heading2 {
+            background-color: magenta;
+        }
+         
+         div p{
+
+            background-color: mediumvioletred;
+         }
+         div > P{
+            background-color: blue; 
+            color: #fff;
+         }
+
+         div + P {
+             background-color: chartreuse;
+         }
+          div ~ p{
+              font-size: 30px;
+          }
+          .demo:hover {
+             background-color: chocolate;
+          }
+          .demo::first-letter {
+              font-size: 100px;
+          }
+    </style>
+</head>
+<body>
+     <h1 class="heading"> Selectors in CSS</h1>
+     <h2 id="heading2">Combinators in CSS</h2>
+   <div>
+       <p>Paragraph1</p>
+       <p>Paragraph2</p>
+       <section>
+           <p>Paragraph3</p>
+       </section>
+       <p>Paragraph4</p>
+       <div>
+           <p>Paragraph5</p>
+       </div>
+       <p>Paragraph6</p>
+       <p>Paragraph7</p>
+   </div>
+   <p>Paragraph8</p>
+   <p class="demo">Paragraph9Paragraph9
+    Paragraph9Paragraph9Paragraph9Paragraph9Paragraph9Paragraph9Paragraph9Paragraph9Paragraph9Paragraph9Paragraph9Paragraph9
+    Paragraph9
+    Paragraph9Paragraph9
+    Paragraph9
+    Paragraph9
+    Paragraph9
+    Paragraph9
+    Paragraph9
+    Paragraph9
+    Paragraph9Paragraph9Paragraph9Paragraph9Paragraph9Paragraph9Paragraph9
+
+   </p>
+
+
+</body>
+</html>
