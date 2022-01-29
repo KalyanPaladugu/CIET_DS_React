@@ -215,8 +215,8 @@ or
 
 + [color codes](https://htmlcolorcodes.com/)
 + [WebAim](https://webaim.org/resources/contrastchecker/)
-+ [Free Icons)(https://www.flaticon.com/)
++ [Free Icons](https://www.flaticon.com/)
 + [Free SvG icons](https://freesvg.org/)
-+ [Free CSS Templates] (https://www.free-css.com/free-css-templates)
-+ [Bootstrap Templates] (https://bootstrapmade.com/)
++ [Free CSS Templates](https://www.free-css.com/free-css-templates)
++ [Bootstrap Templates](https://bootstrapmade.com/)
 + 
